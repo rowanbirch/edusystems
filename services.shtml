@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Edusystems Inc.</title>
+<link rel="stylesheet" href="normalize.css" type="text/css" />
+<link rel="stylesheet" href="edusys.css" type="text/css" />
+</head>
+<body>
+<div id="container">
+	<div id="wrapper">
+	
+	<div id="logoheader">
+			
+	<img src="images/logo.png" height="60" alt="">
+	</div>
+		<div id="middlenav">
+		&nbsp;
+		<a href="index.shtml">HOME</a>		
+		<a href="#">SERVICES</a>
+		<a href="resources.shtml">RESOURCES</a>
+		<a href="products.shtml">PRODUCTS</a>
+		<a href="contact.shtml">CONTACT</a>
+		</div>
+	<div id="deco">
+	
+
+
+		<!--#include file="inc/photobar.inc" -->
+
+
+	<div id="main">	
+	<h3>Services</h3>
+		<p>Our team specializes in supporting organizational leaders to foster clarity and focus on mandate and the visioning process.  We assist leadership to align organizational structures and actions that generate real and sustainable outcomes in the areas of:</p>
+		<ul>
+			<li>Governance and Accountability</li>
+
+			<li>Organization Development and Strategic Planning</li>
+			<li>Departmental/Program Evaluation and Development</li>
+			<li>Service Innovation and Continuous Improvement</li>
+			<li>Facilitation and Training</li>
+			<li>Workplace Violence Prevention and Crisis Management</li>
+			<li>Immigrant and Settlement Support Review and Development</li>
+			<li>Human Resources Services</li>
+			<li>Special Education Services</li>
+			<li>Research and Development</li>
+		</ul>
+
+
+
+	</div>
+		<!--#include file="inc/footer.inc" -->
+
+	</div>
+
+
+
+ </div>
+</div>
+
+</body>
+
+</html>
+
+

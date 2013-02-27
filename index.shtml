@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Edusystems Inc.</title>
+<link rel="stylesheet" href="normalize.css" type="text/css" />
+<link rel="stylesheet" href="edusys.css" type="text/css" />
+</head>
+<body>
+<div id="container">
+	<div id="wrapper">
+		<div id="middlenav">
+		&nbsp;
+		<a href="#">HOME</a>		
+		<a href="services.shtml">SERVICES</a>
+		<a href="resources.shtml">RESOURCES</a>
+		<a href="products.shtml">PRODUCTS</a>
+		<a href="contact.shtml">CONTACT</a>
+		</div>
+	
+	<div id="logoheader">
+			
+	<img src="images/banner1.jpg" width="100%" alt="slider photo">
+	</div>
+
+	<div id="deco">
+	
+
+
+	<div id="photobar">
+	<img src="images/pic2a.jpg"  height="83" alt="">
+	<img src="images/pic2b.jpg"  height="83" alt="Stock Photo">
+	<img src="images/pic2a.jpg"  height="83" alt="Stock Photo">
+	</div>
+	<div id="main">	
+	<h3>Mission</h3>
+	<p>As leaders in performance management, we are committed to supporting our clients in their organization's development through systems analysis, capacity building, and program coherence.</p>
+
+		<br />
+	</div>
+
+
+
+
+	<div id="footer">
+	<div id="footertext">
+
+	<p>&copy; edusystems inc.&nbsp; 2012.  All rights reserved.</p>
+	</div>
+</div>
+
+	</div>
+
+
+
+ </div>
+</div>
+
+</body>
+
+</html>
+
+

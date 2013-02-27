@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Edusystems Inc.</title>
+<link rel="stylesheet" href="normalize.css" type="text/css" />
+<link rel="stylesheet" href="edusys.css" type="text/css" />
+</head>
+<body>
+<div id="container">
+	<div id="wrapper">
+	
+	<div id="logoheader">
+			
+	<img src="images/logo.png" height="60" alt="">
+	</div>
+		<div id="middlenav">
+		&nbsp;
+		<a href="#">index.shtml</a>		
+		<a href="services.shtml">SERVICES</a>
+		<a href="#">RESOURCES</a>
+		<a href="products.shtml">PRODUCTS</a>
+		<a href="contact.shtml">CONTACT</a>
+		</div>
+	<div id="deco">
+	
+
+
+		<!--#include file="inc/photobar.inc" -->
+
+	<div id="main">	
+	<h3>Resources</h3>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	
+	<div class="songbox">
+				<h3>Resource #1</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</em></p>
+				<iframe class="musicimages" width="250" height="250" src="http://www.youtube.com/embed/cHXuuaJiaaa?rel=0" frameborder="0" ></iframe>
+
+
+		</div>
+
+		<div class="songbox">
+				<h3>Resource #2</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>				
+				<iframe class="musicimages" width="250" height="250" src="http://www.youtube.com/embed/PKM1SMO8aaa?rel=0" frameborder="0"></iframe>
+				
+
+				
+		</div>	
+		<div class="songbox">
+				<h3>Resource #3</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</em></p>	
+				<iframe class="musicimages" width="250" height="250" src="http://www.youtube.com/embed/THrkyoCFaaa?rel=0" frameborder="0"></iframe>
+				
+		
+		</div>
+	</div>
+		<!--#include file="inc/footer.inc" -->
+
+	</div>
+
+
+
+ </div>
+</div>
+
+</body>
+
+</html>
+
+

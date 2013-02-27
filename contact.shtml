@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Edusystems Inc.</title>
+<link rel="stylesheet" href="normalize.css" type="text/css" />
+<link rel="stylesheet" href="edusys.css" type="text/css" />
+<script language="javascript" type="text/javascript">
+function checkForm(){
+
+	var validemail=true;
+	var validfirstname=true;
+	var validlastname=true;
+	document.getElementById("needemail").className = "hideit";
+	document.getElementById("needfirstname").className = "hideit";
+	document.getElementById("needlastname").className = "hideit";
+		
+	if (document.feedbackForm.email.value == "" )
+		{validemail=false;
+		document.getElementById("needemail").className = "showit";
+		}
+
+	if (document.feedbackForm.FirstName.value == "" )
+		{validfirstname=false;
+		document.getElementById("needfirstname").className = "showit";
+		}
+	
+	if (document.feedbackForm.LastName.value == "" )
+		{validlastname=false;
+		document.getElementById("needlastname").className = "showit";
+		}
+
+	if ((validemail== true) && (validfirstname == true) && (validlastname == true))
+		{return true;
+		}		
+	else
+		{alert("One of the required fields is missing!");
+		return false;
+		}
+
+	}
+</script>
+
+</head>
+<body>
+<div id="container">
+		<div id="wrapper">
+	
+	<div id="logoheader">
+			
+	<img src="images/logo.png" height="60" alt="">
+	</div>
+		<div id="middlenav">
+		&nbsp;
+		<a href="index.shtml">HOME</a>		
+		<a href="services.shtml">SERVICES</a>
+		<a href="resources.shtml">RESOURCES</a>
+		<a href="products.shtml">PRODUCTS</a>
+		<a href="#">CONTACT</a>
+		</div>
+	<div id="deco">
+	
+
+
+		<!--#include file="inc/photobar.inc" -->
+
+	<div id="main">	
+
+		<h3>Contact Us</h3>
+		
+		<div id="contactform">
+			<form action="formmail.php" method="post" name="feedbackForm" onsubmit="return checkForm()" >
+				<input type="hidden" name="recipient" id="recipient" value="rowanbirch@shaw.ca" />
+				<input type="hidden" name="subject" id="subject" value="Feedback from a edusystems inc. visitor" />
+				<input type="hidden" name="redirect" id="redirect" value="thanks.html" />
+				<input type="hidden" name="sort" id="sort" value="order:name,email,comments" />
+
+				<table border="0" width="100%" cellpadding="10" >
+
+					<tr>
+						<td width="50%" align="right"><label for="firstname"><strong>First Name:</strong></label></td>
+						<td width="50%"> <input type="text" name="FirstName" id="firstname" size="40"  /><span id="needfirstname" class="hideit">* Required Field</span></td>
+						
+					</tr>
+					<tr>
+						<td align="right"><label for="lastname"><strong>Last Name:</strong></label></td>
+						<td> <input type="text" name="LastName" id="lastname" size="40"  /><span id="needlastname" class="hideit">* Required Field</span></td>
+						
+					</tr>
+					<tr>
+						<td align="right"><label for="email"><strong>Email address:</strong></label></td>
+						<td><input type="text" name="email" id="email" size="40"/><span id="needemail" class="hideit">* Required Field</span></td>
+					</tr>
+					<tr>
+						<td align="right"><label for="comments"><strong>Comments:</strong></label></td>
+						<td><textarea name="Comments" id="comments" rows="4" cols="50"></textarea></td>
+					</tr>
+					
+					<tr>
+						<td align="right"><input type="submit" name="submit" value="Submit form" /></td>
+						<td align="right"><input type="reset" value="Reset form" /></td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</div>
+		<!--#include file="inc/footer.inc" -->
+
+	</div>
+
+
+
+ </div>
+</div>
+
+</body>
+
+</html>
+

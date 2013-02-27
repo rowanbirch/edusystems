@@ -1,0 +1,166 @@
+/*green #009b02*/
+/*blue #0200fc*/
+/*grey #CCC*/
+
+body 		{width:95%;
+			min-width:600px;
+			margin:auto;
+			font-family:"franklin gothic medium", "franklin gothic", "itc franklin gothic", arial, sans-serif;
+			background-color:#EAE5E1;
+			}
+
+a:link		{color:white;}
+
+a:visited	{color:white;
+			}
+			
+a:hover		{color:#0200fc;
+			 background-color:#CCC}
+			 
+ a:active	{color:red;
+			 background-color:#CCC}
+			
+#corporate p	{margin:0px;
+			padding:0px;
+			}
+ 
+#container	{width:90%;
+			margin:auto;
+ }
+ 
+#leftnav {width:140px;
+			border:1px purple solid;
+			float:left;
+			margin-top:160px;
+}
+
+
+#wrapper	{padding-top:15px;
+			margin-top:30px;
+			background-image:url('images/background2.jpg');
+			background-repeat:repeat-x;
+			border-left:1px solid gray;
+			border-top:none;
+			border-right:1px solid gray;
+			border-bottom:none;
+			border-bottom-left-radius:5px;
+			border-bottom-right-radius:5px;		
+			}
+			
+#photobar	{width:200px;
+			margin-top:0px;
+			margin-left:0px;
+			display:inline;
+			float:left;
+			}
+
+#photobar	img {display:block;
+			background:transparent;
+			border-radius:8px;
+			padding:0px;
+}
+
+			
+#middlenav {	height:20px;
+			padding-top:4px;
+			font-size:80%;
+			background:gray;
+			border-left:1px solid gray;
+			border-top:none;
+			border-right:1px solid gray;
+			border-bottom:none;
+			}
+
+#middlenav a	{padding:2px 10px;
+			margin:0px 10px;
+			text-decoration:none;
+			border-radius:4px;
+			}
+
+
+			
+#logoheader img	{padding-left:0px;
+					padding-top:12px;
+					display:block;
+					margin:auto;
+				}
+		
+#corporate	{padding-top:10px;
+			margin-left:140px;
+			margin-bottom:10px;
+			background-color:transparent;
+			overflow:auto;
+			}
+			
+#main		{margin-left:230px;
+			margin-right:20px;
+			margin-bottom:20px;
+			background-color:white;
+			overflow:auto;
+			border-radius:10px;
+			border:1px silver solid;
+			margin-top:3px;
+			}
+			
+#deco		{
+	
+			padding:20px 0 0 0;
+			margin:0px;
+
+}
+
+#deco img	{padding:3px 0px 3px 25px;
+			display:block;
+}
+			
+#main img	{padding-left:29px;}
+			
+			
+#main p,h3		{padding-left:40px;
+				padding-right:20px;
+			}
+			
+#main ul	{padding-left:110px;}
+
+#main ul ul	{padding-left:60px;}
+			
+#footer, #footertext		{margin:auto;
+			clear:both;
+			border-bottom-left-radius:5px;
+			border-bottom-right-radius:5px;
+			}
+#contactform	{padding-right:300px;
+				}
+				
+				
+#contactform tr td	{border:0px;
+					vertical-align:top;
+					}
+
+					
+.hideit 				{
+					display:none;
+					}
+					
+.showit 				{
+					display:inline;
+					color: red;
+					}
+					
+			
+#footertext	{margin:0;
+			border:0;
+			padding:0;
+			font-family:Calibri,Arial,sans-serif;
+			background-color:black;
+			color:white;
+			}
+
+#footertext	p 	{padding:0px 0px 0px 0px;
+				text-align:center;
+				font-size:10pt;
+				margin:auto;
+				border:0px;
+				}
+				
+.songbox iframe	{padding-left:150px;}
