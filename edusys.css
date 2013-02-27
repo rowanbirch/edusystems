@@ -3,23 +3,50 @@
 /*grey #CCC*/
 
 body 		{width:95%;
-			min-width:600px;
+			min-width:800px;
 			margin:auto;
-			font-family:"franklin gothic medium", "franklin gothic", "itc franklin gothic", arial, sans-serif;
+			background: url("images/ninja_loader.gif") no-repeat scroll center center transparent;
+			font-family: Helvetica,Arial,Sans-serif;
 			background-color:#EAE5E1;
 			}
 
-a:link		{color:white;}
+nav a	{font-family:"Helvetica Neue",Helvetica,Arial,Sans-serif;
+							text-decoration:none;
+							display:block;
+							border:none;}
 
-a:visited	{color:white;
+
+.onpage a:link		{color:#D4463A;
+					}
+
+.onpage a:visited	{color:	#6A6D78;
+			}
+
+			
+.onpage a:hover		{color:#D4463A;
+					text-decoration:underline;}
+
+.onpage a:focus		{color:#D4463A;
+					outline:none;}		
+
+.onpage a:active	{color:red;
+			 }
+			 
+ a:link		{color:#6A6D78;}
+
+ a:visited	{color:	#6A6D78;
 			}
 			
-a:hover		{color:#0200fc;
-			 background-color:#CCC}
-			 
+ a:hover		{color:#D4463A;
+			text-decoration:underline	  ;}
+
+ a:focus		{color:green;
+					outline:none;}		
+
+		  
  a:active	{color:red;
-			 background-color:#CCC}
-			
+			 }
+						
 #corporate p	{margin:0px;
 			padding:0px;
 			}
@@ -36,7 +63,6 @@ a:hover		{color:#0200fc;
 
 
 #wrapper	{padding-top:15px;
-			margin-top:30px;
 			background-image:url('images/background2.jpg');
 			background-repeat:repeat-x;
 			border-left:1px solid gray;
@@ -61,29 +87,27 @@ a:hover		{color:#0200fc;
 }
 
 			
-#middlenav {	height:20px;
-			padding-top:4px;
-			font-size:80%;
-			background:gray;
-			border-left:1px solid gray;
-			border-top:none;
-			border-right:1px solid gray;
-			border-bottom:none;
+#middlenav {	height:45px;
+			padding-top:2px;
+			background-color: #F4F5F6;
+			background-image: linear-gradient(to bottom, transparent 50%, #E2E4E6 50%);
 			}
 
-#middlenav a	{padding:2px 10px;
+#middlenav li	{padding:2px 10px;
 			margin:0px 10px;
-			text-decoration:none;
-			border-radius:4px;
+			display:inline-block;
 			}
 
-
+#middlenav img {padding-left:25px;
+			   float:left;
+			}
 			
 #logoheader img	{padding-left:0px;
-					padding-top:12px;
 					display:block;
 					margin:auto;
 				}
+				
+#menu ul 	{margin-top:-9px;}
 		
 #corporate	{padding-top:10px;
 			margin-left:140px;
@@ -92,8 +116,8 @@ a:hover		{color:#0200fc;
 			overflow:auto;
 			}
 			
-#main		{margin-left:230px;
-			margin-right:20px;
+#main		{margin-left:25px;
+			margin-right:25px;
 			margin-bottom:20px;
 			background-color:white;
 			overflow:auto;

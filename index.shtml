@@ -10,15 +10,19 @@
 <body>
 <div id="container">
 	<div id="wrapper">
-		<div id="middlenav">
-		&nbsp;
-		<a href="#">HOME</a>		
-		<a href="services.shtml">SERVICES</a>
-		<a href="resources.shtml">RESOURCES</a>
-		<a href="products.shtml">PRODUCTS</a>
-		<a href="contact.shtml">CONTACT</a>
+		<nav id="middlenav">
+		<img src="images/logo.png" height="45"/>
+		&nbsp;		
+		<div id="menu">
+		<ul>
+		<li class="onpage"><a href="#">Home</span></a></li>
+		<li><a href="services.shtml">Services</a></li>
+		<li><a href="resources.shtml">Resources</a></li>
+		<li><a href="products.shtml">Products</a></li>
+		<li><a href="contact.shtml">Contact</a></li>
+		</ul>
 		</div>
-	
+		</nav>
 	<div id="logoheader">
 			
 	<img src="images/banner1.jpg" width="100%" alt="slider photo">
@@ -28,11 +32,7 @@
 	
 
 
-	<div id="photobar">
-	<img src="images/pic2a.jpg"  height="83" alt="">
-	<img src="images/pic2b.jpg"  height="83" alt="Stock Photo">
-	<img src="images/pic2a.jpg"  height="83" alt="Stock Photo">
-	</div>
+
 	<div id="main">	
 	<h3>Mission</h3>
 	<p>As leaders in performance management, we are committed to supporting our clients in their organization's development through systems analysis, capacity building, and program coherence.</p>
