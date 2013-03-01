@@ -19,6 +19,7 @@ padding:0px;
 <link href="allinone_contentSlider.css" rel="stylesheet" type="text/css">
 <link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
 <title>Edusystems Inc.</title>
+	  <link rel="icon" href="favicon.ico" type="image/x-icon"/>
 <link rel="stylesheet" href="edusys.css" type="text/css" />
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
@@ -35,7 +36,7 @@ padding:0px;
 			jQuery('#allinone_contentSlider_common').allinone_contentSlider({
 				skin: 'common',
 				width: 1024,
-				height: 360,
+				height: 348,
 				responsive:true,
 				showBottomNav:false,
 				showPreviewThumbs:false,
@@ -54,12 +55,13 @@ padding:0px;
 		<img src="images/logo.png" height="45"/>
 		&nbsp;		
 		<div id="menu">
-		<ul>
+		<ul>		<li>|</li>
 		<li><a href="index.shtml">Home</span></a></li>
 		<li class="onpage"><a href="#">Services</a></li>
 		<li><a href="resources.shtml">Resources</a></li>
+		<li><a href="blog.shtml">Blog</a></li>
 		<li><a href="products.shtml">Products</a></li>
-		<li><a href="contact.shtml">Contact</a></li>
+		<li><a href="contact.shtml">Contact</a></li>		<li>|</li>
 		</ul>
 		</div>
 		</nav>
@@ -71,19 +73,7 @@ padding:0px;
 <div id="containingDiv">
 
 
-            <div id="allinone_contentSlider_common">
-                <!-- CONTENT -->
-                <ul class="allinone_contentSlider_list">
-                
-                    <li><img src="images/banner1.jpg" width="1024" height="348" alt=""/></li>
-					<li><img src="images/coverimage.jpg" width="1024" height="348" alt=""/></li>
-               		<li><img src="images/common/HTML5Simple.png" width="960" height="460" alt="" /></li>
 
-                                        
-                </ul>    
-                
-           </div>
-  
   
 
 
@@ -92,8 +82,12 @@ padding:0px;
 
 
 	<div id="deco">
-	
-
+	<div id="breadcrumbs" class="breadcrumb-trail">
+<span class="trail-before">
+<a class="trail-begin" rel="home" title="Athena" href="index.shtml">Home</a>
+<span class="sep">></span>
+<span class="trail-end">Services</span>
+	</div>
 
 
 

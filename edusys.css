@@ -11,15 +11,20 @@ body 		{min-width:800px;
 nav a	{font-family:"Helvetica Neue",Helvetica,Arial,Sans-serif;
 							text-decoration:none;
 							display:block;
+							    font-weight: 400;
+								font-size:100%;
+    line-height: 1.2em;
+
+    text-shadow: 0 0.077em 0 #FFFFFF;
 							border:none;}
 
 
-#rowan	{width:1000px;}							
+	
 							
 .onpage a:link		{color:#D4463A;
 					}
 
-.onpage a:visited	{color:	#6A6D78;
+.onpage a:visited	{color:	#D4463A;
 			}
 
 			
@@ -40,13 +45,43 @@ nav a	{font-family:"Helvetica Neue",Helvetica,Arial,Sans-serif;
  a:hover		{color:#D4463A;
 			text-decoration:underline	  ;}
 
- a:focus		{color:green;
+ a:focus		{color:D4463A;
 					outline:none;}		
 
 		  
  a:active	{color:red;
 			 }
-						
+			 
+#breadcrumbs {
+    background-color: #9DA0A5;
+    background-image: linear-gradient(to bottom, transparent 50%, #979CA2 50%);
+    border-top: 1px solid #B3B6BB;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    margin-bottom: 25px;
+    padding: 0.45em 0;
+    position: relative;
+}
+
+#breadcrumbs .trail-begin {
+    background: url("images/ico-breadcrumb-home.png") no-repeat scroll left center transparent;
+    display: inline-block;
+    height: 22px;
+    text-indent: -999em;
+    width: 25px;
+	margin-left:25px;
+}
+
+#breadcrumbs .sep {
+    background: url("images/ico-breadcrumb-sep.png") no-repeat scroll center center transparent;
+    display: inline-block;
+    height: 22px;
+    padding: 0 1em;
+    text-indent: -999em;
+    width: 9px;
+}
+
+			 
 #corporate p	{margin:0px;
 			padding:0px;
 			}
@@ -106,8 +141,10 @@ nav a	{font-family:"Helvetica Neue",Helvetica,Arial,Sans-serif;
 					display:block;
 					margin:auto;
 				}
+
+#menu	{float:left}
 				
-#menu ul 	{margin-top:-9px;}
+#menu ul 	{margin-top:10px;}
 		
 #corporate	{padding-top:10px;
 			margin-left:140px;
@@ -123,12 +160,12 @@ nav a	{font-family:"Helvetica Neue",Helvetica,Arial,Sans-serif;
 			overflow:auto;
 			border-radius:10px;
 			border:1px silver solid;
-			margin-top:3px;
+			margin-top:14px;
 			}
 			
 #deco		{
 	
-			padding:20px 0 0 0;
+			padding:0px 0 0 0;
 			margin:0px;
 
 }
