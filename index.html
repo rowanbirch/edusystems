@@ -3,17 +3,9 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	
 <title>Edusystems Inc.</title>
-<link rel="stylesheet" href="normalize.css" type="text/css" />
-<link rel="stylesheet" href="edusys.css" type="text/css" />
 
-<style type="text/css">
-html, body {
-margin:0px;
-padding:0px;
-
-}
-</style>
 <style type="text/css">
 html, body {
 margin:0px;
@@ -32,16 +24,22 @@ padding:0px;
 #logoheader img	{padding-left:0px;
 					display:block;
 					margin:auto;
+
 				}
 #middlenav ul	{padding-left:10px;}
 
+#middlenav {min-width:760px;}
+
 </style>
+<link rel="stylesheet" href="edusys.css" type="text/css" />
+
+
 <!-- must have -->
 <link href="allinone_contentSlider.css" rel="stylesheet" type="text/css">
 <link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
-<title>Edusystems Inc.</title>
 	  <link rel="icon" href="favicon.ico" type="image/x-icon"/>
-<link rel="stylesheet" href="edusys.css" type="text/css" />
+<title>Edusystems Inc.</title>
+
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
 <script src="js/jquery.ui.touch-punch.min.js" type="text/javascript"></script>
@@ -56,9 +54,11 @@ padding:0px;
 
 			jQuery('#allinone_contentSlider_common').allinone_contentSlider({
 				skin: 'common',
-				width: 1024,
-				height: 348,
+				width: 2000,
+				height: 400,
+				width100Proc:true,
 				responsive:true,
+				autoHideBottomNav:true,
 				showBottomNav:false,
 				showPreviewThumbs:false,
 				showCircleTimer:false,
@@ -76,9 +76,10 @@ padding:0px;
 		<img src="images/logo.png" height="45"/>
 		&nbsp;		
 		<div id="menu">
-		<ul>		<li>|</li>
-		<li><a href="index.shtml">Home</span></a></li>
-		<li class="onpage"><a href="#">Services</a></li>
+		<ul>
+				<li>|</li>
+		<li class="onpage"><a href="#">Home</span></a></li>
+		<li><a href="services.shtml">Services</a></li>
 		<li><a href="resources.shtml">Resources</a></li>
 		<li><a href="blog.shtml">Blog</a></li>
 		<li><a href="products.shtml">Products</a></li>
@@ -86,53 +87,55 @@ padding:0px;
 		</ul>
 		</div>
 		</nav>
-	<div id="logoheader">
-			
+		
+	<div style="clear:both;display:none;">x</div>	
+		
+	<div id="logoheader" >
 			
 <div id="bannerBg">
 
 <div id="containingDiv">
 
 
+            <div id="allinone_contentSlider_common" >
+                <!-- CONTENT -->
+                <ul class="allinone_contentSlider_list" >
+   					<li><img src="images/coverimage.jpg" width="2000" alt=""/></li>				
+                    <li><img src="images/banner1.jpg" width="2000"  alt=""/></li>
 
+
+                                        
+                </ul>    
+                             
+           </div>
+  
   
 
 
 </div>
 	</div>
 
-
 	<div id="deco">
-	<div id="breadcrumbs" class="breadcrumb-trail">
-<span class="trail-before">
-<a class="trail-begin" rel="home" title="Athena" href="index.shtml">Home</a>
-<span class="sep">></span>
-<span class="trail-end">Services</span>
-	</div>
+	
 
 
 
 	<div id="main">	
-	<h3>Services</h3>
-		<p>Our team specializes in supporting organizational leaders to foster clarity and focus on mandate and the visioning process.  We assist leadership to align organizational structures and actions that generate real and sustainable outcomes in the areas of:</p>
-		<ul>
-			<li>Governance and Accountability</li>
+	<h3>Mission</h3>
+	<p>As leaders in performance management, we are committed to supporting our clients in their organization's development through systems analysis, capacity building, and program coherence.</p>
 
-			<li>Organization Development and Strategic Planning</li>
-			<li>Departmental/Program Evaluation and Development</li>
-			<li>Service Innovation and Continuous Improvement</li>
-			<li>Facilitation and Training</li>
-			<li>Workplace Violence Prevention and Crisis Management</li>
-			<li>Immigrant and Settlement Support Review and Development</li>
-			<li>Human Resources Services</li>
-			<li>Special Education Services</li>
-			<li>Research and Development</li>
-		</ul>
-
-
-
+		<br />
 	</div>
-		<!--#include file="inc/footer.inc" -->
+
+
+
+
+	<div id="footer">
+	<div id="footertext">
+
+	<p>&copy; edusystems inc.&nbsp; 2012.  All rights reserved.</p>
+	</div>
+</div>
 
 	</div>
 

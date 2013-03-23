@@ -3,7 +3,23 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	
 <title>Edusystems Inc.</title>
+
+
+<link rel="stylesheet" href="edusys.css" type="text/css" />
+
+
+<!-- must have -->
+<link href="allinone_contentSlider.css" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
+	  <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
+<script src="js/jquery.ui.touch-punch.min.js" type="text/javascript"></script>
+<script src="js/allinone_contentSlider.js" type="text/javascript"></script>
+<!-- must have -->
 
 <style type="text/css">
 html, body {
@@ -11,21 +27,27 @@ margin:0px;
 padding:0px;
 
 }
+#middlenav li	{padding:2px;
+			margin:0px 10px;
+			display:inline-block;
+			}
+
+#middlenav img {padding-left:25px;
+			   float:left;
+			}
+			
+#logoheader img	{padding-left:0px;
+					display:block;
+					margin:auto;
+
+				}
+#middlenav ul	{padding-left:10px;}
+
+#middlenav {min-width:760px;}
+
+.textElement13_commonFW {font-weight:normal;}
+
 </style>
-
-<!-- must have -->
-<link href="allinone_contentSlider.css" rel="stylesheet" type="text/css">
-<link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
-	  <link rel="icon" href="favicon.ico" type="image/x-icon"/>
-<title>Edusystems Inc.</title>
-<link rel="stylesheet" href="edusys.css" type="text/css" />
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
-<script src="js/jquery.ui.touch-punch.min.js" type="text/javascript"></script>
-<script src="js/allinone_contentSlider.js" type="text/javascript"></script>
-<!-- must have -->
-
-
 
 
 	<script>
@@ -33,9 +55,12 @@ padding:0px;
 
 			jQuery('#allinone_contentSlider_common').allinone_contentSlider({
 				skin: 'common',
-				width: 1024,
-				height: 360,
+				width: 2000,
+				height: 400,
+				autoPlay:17,
+				width100Proc:true,
 				responsive:true,
+				autoHideBottomNav:true,
 				showBottomNav:false,
 				showPreviewThumbs:false,
 				showCircleTimer:false,
@@ -44,18 +69,18 @@ padding:0px;
 			
 			
 		});
-	</script>   
+	</script>
 </head>
 <body>
 <div id="container">
 	<div id="wrapper">
 		<nav id="middlenav">
-		<img src="images/logo.png" height="45"/>
+		<img src="images/logo.png" alt="" height="45"/>
 		&nbsp;		
 		<div id="menu">
 		<ul>
 				<li>|</li>
-		<li class="onpage"><a href="#">Home</span></a></li>
+		<li class="onpage"><a href="#">Home</a></li>
 		<li><a href="services.shtml">Services</a></li>
 		<li><a href="resources.shtml">Resources</a></li>
 		<li><a href="blog.shtml">Blog</a></li>
@@ -64,35 +89,47 @@ padding:0px;
 		</ul>
 		</div>
 		</nav>
-	<div id="logoheader">
+		
+	<div style="clear:both; display:none;">x</div>	
+		
+	<div id="logoheader" >
 			
-<div id="bannerBg">
+<div id="bannerBg" >
 
-<div id="containingDiv">
+<div id="containingDiv" >
 
 
-            <div id="allinone_contentSlider_common">
+            <div id="allinone_contentSlider_common" >
+						<img src="images/coverimage2.jpg" alt="" style="float:left;padding-top:0px;margin-top:0px;border-top:none; width:100%" >
                 <!-- CONTENT -->
-                <ul class="allinone_contentSlider_list">
-   					<li><img src="images/coverimage.jpg" width="1024" height="348" alt=""/></li>
-                    <li  data-text-id="#allinone_contentSlider_photoText6"></li>					
-                    <li><img src="images/banner1.jpg" width="1024" height="348" alt=""/></li>
-
-               		<li><img src="images/common/HTML5Simple.png" width="960" height="460" alt="" /></li>
-
-                                        
-                </ul>    
-                              <div id="allinone_contentSlider_photoText6" class="allinone_contentSlider_texts">
-                    <div id="62" class="allinone_contentSlider_text_line" data-initial-left="135" data-initial-top="50" data-final-left="0" data-final-top="0" data-duration="0.5" data-fade-start="0" data-delay="0.2"><img src="images/halfcoverimage.jpg" width="614" height="348" alt="" /></div>    
-                    
-                    <div id="63" class="allinone_contentSlider_text_line" data-initial-left="640" data-initial-top="50" data-final-left="730" data-final-top="27" data-duration="0.5" data-fade-start="0" data-delay="0.8"><img src="images/minieducere.jpg" width="180" height="250" alt="" /></div>  
-                    
-                                  
-               </div>
+                <ul class="allinone_contentSlider_list" >
+   					<li data-text-id="#allinone_contentSlider_photoText1" style="color:white"></li>				
+    					<li data-text-id="#allinone_contentSlider_photoText2" style="color:white"></li>	
+   					<li data-text-id="#allinone_contentSlider_photoText3" style="color:white"></li>							
+                </ul>  
+  
+                             
            </div>
-  
-  
 
+				  
+                <div id="allinone_contentSlider_photoText1" class="allinone_contentSlider_texts">
+				     <div  class="allinone_contentSlider_text_line" data-initial-left="0" data-initial-top="0" data-final-left="0" data-final-top="0" data-duration="0" data-fade-start="0" data-delay="0"><img src="images/coverimage2.jpg" width="2000" height="400" alt=""/></div>
+                    <div  class="allinone_contentSlider_text_line textElement13_commonFW" data-initial-left="1100" data-initial-top="400" data-final-left="1100" data-final-top="50" data-duration="8.0" data-fade-start="0" data-delay="0" style="color:white; width:400px;">"The authors of Educere have developed a construct for decision-making that will both inspire and equip leaders to move the public-school system forward in a manner that is supported by organizational design principles and educational research. It is an essential resource for all leaders committed to improving the quality of our schools." <br /><span style="font-size:8px;line-height:50%"><em>Wendy J. Harris, Q.C., Education Law Specialist, Harris & Company LLP</em></span></div>
+
+               </div>  
+                 <div id="allinone_contentSlider_photoText2" class="allinone_contentSlider_texts">
+				 				    				  <div  class="allinone_contentSlider_text_line" data-initial-left="0" data-initial-top="0" data-final-left="0" data-final-top="0" data-duration="0" data-fade-start="0" data-delay="0"><img src="images/coverimage2.jpg" width="2000" height="400" alt=""/></div>
+                    <div  class="allinone_contentSlider_text_line textElement13_commonFW" data-initial-left="1100" data-initial-top="400" data-final-left="1100" data-final-top="20" data-duration="8.0" data-fade-start="0" data-delay="0" style="color:white; width:400px;">"Educere is a roadmap to quality educational reform. Rather than presenting a superficial, cookie-cutter approach to systems development, the authors provide guidance for enacting lasting change, leading to enhanced outcomes for students. They take research and connect it to the heart of teaching. Moreover, they do it in a way that is engaging and is informed by their extensive experience. District administrators who pick it up will find themselves consulting it on a regular basis."
+ <br /><span style="font-size:8px;line-height:50%"><em>Kent McIntosh, Ph.D., College of Education, 
+University of  Oregon
+</em></span></div>
+
+               </div>   
+                <div id="allinone_contentSlider_photoText3" class="allinone_contentSlider_texts">
+								    				  <div  class="allinone_contentSlider_text_line" data-initial-left="0" data-initial-top="0" data-final-left="0" data-final-top="0" data-duration="0" data-fade-start="0" data-delay="0"><img src="images/coverimage2.jpg" width="2000" height="400" alt=""/></div>
+                    <div  class="allinone_contentSlider_text_line textElement13_commonFW" data-initial-left="1100" data-initial-top="400" data-final-left="1100" data-final-top="50" data-duration="8.0" data-fade-start="0" data-delay="0" style="color:white; width:400px;">"Educere is a powerful and transformative book. The synthesis of educational philosophy and practical leadership understandings provides district and school-based leaders with a comprehensive framework for action towards meaningful change." <br /><span style="font-size:8px ;line-height:50%"><em>Brad Bauman, Director of Instruction - Education Services, Surrey School District</em></span></div>
+
+               </div>  
 
 </div>
 	</div>
@@ -125,7 +162,7 @@ padding:0px;
 
  </div>
 </div>
-
+</div>
 </body>
 
 </html>

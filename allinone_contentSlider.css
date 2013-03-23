@@ -47,36 +47,37 @@ skins available:
 	top:0;
 	/*z-index:1;*/
 	z-index:5;
+		background:url(images/background2) 0 0 no-repeat;
 	width:100%;
 }
 
 .allinone_contentSlider.common .leftNav {
 	position:absolute;
-	left:0;
+	left:35px;
 	/*left:-35px;*/
 /*	top:50%;
 	margin-top:-63px; /* height/2 */
-	width:60px;
-	height:150px;
-	background:url(skins/common/leftNavOFF.png) 0 0 no-repeat;
+	width:65px;
+	height:61px;
+	background:url(images/pointer_left.png) 0 0 no-repeat;
 	cursor: pointer;
 }
 .allinone_contentSlider.common .leftNav:hover {
-	background:url(skins/common/leftNavON.png) 0 0 no-repeat;
+	background:url(images/pointer_left_hover.png) 0 0 no-repeat;
 }
 .allinone_contentSlider.common .rightNav {
 	position:absolute;
-	right:0;
+	right:35px;
 	/*right:-35px;*/
 /*	top:50%;
 	margin-top:-63px; /* height/2 */
-	width:60px;
-	height:150px;
-	background:url(skins/common/rightNavOFF.png) 0 0 no-repeat;
+	width:65px;
+	height:61px;
+	background:url(images/pointer_right.png) 0 0 no-repeat;
 	cursor: pointer;
 }
 .allinone_contentSlider.common .rightNav:hover {
-	background:url(skins/common/rightNavON.png) 0 0 no-repeat;
+	background:url(images/pointer_right_hover.png) 0 0 no-repeat;
 }
 .allinone_contentSlider.common .bottomNav {
 	position:absolute;
